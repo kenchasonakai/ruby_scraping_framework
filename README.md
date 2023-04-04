@@ -4,7 +4,7 @@
 ## gemのインストールとDBのセットアップ
 ```
 bundle install
-ruby -I ./ db/migrations/base.rb
+bundle exec ruby -I ./ db/migrations/base.rb
 ```
 
 ## ディレクトリ構成
